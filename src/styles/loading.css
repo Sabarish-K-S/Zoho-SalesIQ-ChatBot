@@ -1,0 +1,35 @@
+.loader{
+    height: 150px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: clamp(0.313rem, -0.688rem + 5vw, 2.75rem);
+}
+.lines{
+    width: 80%;
+    height: 20px;
+    background-color: rgb(227, 221, 221);
+    animation: animate 0.9s linear infinite;
+    margin-bottom: 20px;
+}
+.line2{
+    width: 70%;
+}
+.line3{
+    width: 55%;
+}
+.line1, .line2, .line3{
+    border-radius: 7px;
+}
+@keyframes animate{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.3;
+    }
+    100%{
+        opacity: 1;
+    }
+}
