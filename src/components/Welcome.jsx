@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import robot from '../assets/robot1.png'
 import leetCode from '../assets/lcphoto.png'
 import mailLogo from '../assets/gmail.jpg'
-import inLogo from '..assets/linkedin.jpg'
+import inLogo from '../assets/linkedin.jpg'
 
 const Welcome = () => {
   const target=useRef(null)
