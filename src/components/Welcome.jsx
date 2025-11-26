@@ -2,6 +2,10 @@ import React, { useEffect, useRef, useState } from 'react'
 import '../styles/welcome.css'
 import { FaArrowRightLong } from "react-icons/fa6";
 import { useNavigate } from 'react-router-dom';
+import robot from '../assets/robot1.png'
+import leetCode from '../assets/lcphoto.png'
+import mailLogo from '../assets/gmail.jpg'
+import inLogo from '..assets/linkedin.jpg'
 
 const Welcome = () => {
   const target=useRef(null)
@@ -28,7 +32,7 @@ const Welcome = () => {
     <>
     <div className='wrapper'>
       <div>
-       <img className='robot1' src='./src/assets/robot1.png'/>
+       <img className='robot1' src={robot}/>
       </div>
       <div className='right-view'>
         <div className='skills'>
@@ -52,17 +56,17 @@ const Welcome = () => {
       <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am Sabarish, an aspiring software developer with a passion for creating innovative solutions. I have a strong foundation in data structures and algorithms using Java, and I am proficient in front-end technologies such as HTML, CSS, and ReactJS. Currently, I am expanding my skill set by learning Spring Boot for back-end development and MySQL for database management. I am eager to contribute to exciting projects and collaborate with like-minded professionals in the tech industry.</h3><br/>
       <div className='wrapperLC'>
         <div className='lcdiv'>
-          <img className='lcImage' src='./src/assets/lcphoto.png'/>
+          <img className='lcImage' src={leetCode}/>
           <h3>I’ve solved over 90+ problems on LeetCode, including 59 easy, 35 medium, and 2 hard challenges. Through consistent practice, I’ve strengthened my problem-solving and algorithmic thinking skills, gaining hands-on experience with data structures and efficient coding techniques.</h3>
         </div><br/>
       <div className='links'>
        <div className='subwrapper'>
-         <img className='inImage' src='./src/assets/linkedin.jpg'/>
+         <img className='inImage' src={inLogo}/>
          <div className='line1'></div>
          <a href='https://www.linkedin.com/in/sabarish-k-s-103975299/'>https://www.linkedin.com/in/sabarish-k-s-103975299/</a>
        </div><br/>
        <div className='subwrapper'>
-         <img className='mailImage' src='./src/assets/gmail.jpg'/>
+         <img className='mailImage' src={mailLogo}/>
          <div className='line1'></div>
          <h3>sabarish28072006@gmail.com</h3>
        </div><br/><br/>
