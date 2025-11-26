@@ -4,6 +4,7 @@ import { GoogleGenAI } from "@google/genai";
 import { useState,useRef } from 'react';
 import { BsSendFill } from "react-icons/bs";
 import Loading from './Loading';
+import chatRobot from '..assets/robot3a.png'
 
 const Chatbot = () => {
 
@@ -51,7 +52,7 @@ const Chatbot = () => {
   return (
     <>
      <div className='chat-wrapper'>
-        <img className='chatImg' src='./src/assets/robot3a.png'/>
+        <img className='chatImg' src={chatRobot}/>
         <div className='chat-container'>
           <div className='chat-container1'>
             <div className='chat-header'>
