@@ -4,7 +4,7 @@ import { GoogleGenAI } from "@google/genai";
 import { useState,useRef } from 'react';
 import { BsSendFill } from "react-icons/bs";
 import Loading from './Loading';
-import chatRobot from '..assets/robot3a.png'
+import chatRobot from '../assets/robot3a.png'
 
 const Chatbot = () => {
 
